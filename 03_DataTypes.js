@@ -12,6 +12,7 @@
 
 // 1. Object Literals
 // 2. Arrays
+// 3. Functions
 
 const firstName = "John"
 console.log(typeof firstName);
@@ -25,4 +26,10 @@ console.log(typeof address); //This will return as an object but it is a mistake
 const phoneNumber = undefined;
 console.log(typeof phoneNumber);
 
+const person = {
+    name: "John",
+    age: 23
+};
+
+console.log(typeof person);
 
