@@ -8,11 +8,15 @@
 // 5. Symbol
 // 6. BigInt 
 
+// Stored directly in stack
+
 //Reference Types (Objects)
 
 // 1. Object Literals
 // 2. Arrays
 // 3. Functions
+
+//store in the heap and accessed by reference.
 
 const firstName = "John"
 console.log(typeof firstName);
