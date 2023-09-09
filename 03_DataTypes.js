@@ -36,4 +36,15 @@ const person = {
 };
 
 console.log(typeof person);
+console.log(person); //Running synchronously. 
+
+//Here, the "person" is stored in stack and is pointing towards the heap where the key-pair are stored.
+
+
+//When you update something in an object literal, the data is altered in the heap.
+
+const newPerson = person;
+newPerson.name = "Jonathan";
+console.log(person, newPerson)
+
 
